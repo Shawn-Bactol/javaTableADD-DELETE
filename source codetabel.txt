@@ -2,7 +2,7 @@ Delete
 
 DefaultTableModel tblModel = (DefaultTableModel)jTable1.getModel();
        
-       if(jTable1.getSelectedColumn()==1)
+       if(jTable1.getSelectedRowCount()==1)
                {
                tblModel.removeRow(jTable1.getSelectedRow());              
                }
