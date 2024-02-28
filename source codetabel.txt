@@ -25,7 +25,7 @@ Add
 
 if(jTextField1.getText().equals(0)||jTextField2.getText().equals(0)||jTextField3.getText().equals(0))  
       {
-      JOptionPane.showMessageDialog(this, "Pleas Input All Data");
+      JOptionPane.showMessageDialog(this, "Please Input All Data");
       
       }
       else
